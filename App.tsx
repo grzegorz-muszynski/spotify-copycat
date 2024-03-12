@@ -1,11 +1,8 @@
-import { SafeAreaView, Text } from 'react-native';
-// import Test from './src/components/Test';
-import colors from './src/utils/colors';
-colors
+import SignUp from '@views/auth/SignUp';
 
 const App = () => {
   return (
-    <SafeAreaView></SafeAreaView>
+    <SignUp />
   );
 };
 
